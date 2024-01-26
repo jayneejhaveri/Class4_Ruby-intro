@@ -15,3 +15,13 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+#array for myself 
+my_stuff = ["milk", "eggs", "bacon"]
+#array for my friend 
+friend_stuff = ["beer", "cookies", "apples"]
+#combined array 
+complete_list = my_stuff + friend_stuff
+#sort array 
+sorted_array = complete_list.sort
+puts sorted_array
