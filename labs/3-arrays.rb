@@ -17,11 +17,20 @@
 # https://ruby-doc.org/core-2.7.0/Array.html
 
 #array for myself 
-my_stuff = ["milk", "eggs", "bacon"]
+my_stuff = ["milk", "eggs", "bacon", "beer"]
 #array for my friend 
 friend_stuff = ["beer", "cookies", "apples"]
 #combined array 
 complete_list = my_stuff + friend_stuff
+#unique list 
+unique_list = complete_list.uniq
 #sort array 
-sorted_array = complete_list.sort
-puts sorted_array
+sorted_array = unique_list.sort
+
+#write list to screen 
+puts "Buy #{sorted_array[0]}"
+puts "Buy #{sorted_array[1]}"
+puts "Buy #{sorted_array[2]}"
+puts "Buy #{sorted_array[3]}"
+puts "Buy #{sorted_array[4]}"
+puts "Buy #{sorted_array[5]}"
